@@ -13,7 +13,7 @@
 
 ## 📌 Sobre o Repositório
 
-Repositório destinado ao versionamento das soluções das **listas de exercícios teóricas e práticas** desenvolvidas na disciplina de **Algoritmos e Programação** (2º Semestre) do curso de **Sistemas de Informação** na **Universidade Estadual do Sudoeste da Bahia (UESB)**.
+Repositório destinado ao versionamento das soluções das listas de exercícios teóricos e práticos desenvolvidos na disciplina de Algoritmos e Programação (2º Semestre) do curso de Sistemas de Informação na Universidade Estadual do Sudoeste da Bahia (UESB).
 
 ---
 
