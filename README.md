@@ -1,5 +1,3 @@
-# Listas c++
-
 <div align="center">
 
 # 💻 Algoritmos e Programação em C++
