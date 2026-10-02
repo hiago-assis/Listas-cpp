@@ -11,7 +11,6 @@ int main(){
     cout << "Digite um numero inteiro: ";
     cin >> num;
 
-
     cout << algarismosPares(num);
 
 }
