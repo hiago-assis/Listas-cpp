@@ -22,13 +22,7 @@ int maiorSequencia(int v[], int tamanho, int pos, int sequenciaAtual, int maiorS
     {
         return maiorSeq;
     }
-
-    if (pos == 0)
-    {
-        sequenciaAtual = 0;
-        maiorSeq = 0;
-    }
-
+    
     if (v[pos + 1] > v[pos])
     {
         sequenciaAtual++;
