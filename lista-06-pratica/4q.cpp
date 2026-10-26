@@ -30,23 +30,31 @@ int main(){
     mPtr = &matriz[0][0];
 
     for(int i = 0; i < LINHA; i++){
+       
             for(int j = 0; j < COLUNA; j++){
-                cout << *(mPtr++) << endl;
+                cout << *(mPtr++) << " ";
     }
-    cout << endl;
+     cout << endl;
+    
 }
 
     return 0;
 }
 
-void trocaElementos(int* p, int primeiroIndice, int segundoIndice){
-   
+void trocaElementos(int* p, int colA, int colB){
+   int *colunaA;
+    int *colunaB;
+    int temp;
 
 
-    for(int j = primeiroIndice; j < COLUNA; j++){
-        for(int i = 0; i < LINHA; i++){
-                  
-    }
+    for(int i = 0; i < LINHA; i++){
+
+        colunaA = p + i * COLUNA + colA;
+        colunaB = p + i * COLUNA + colB;
+
+       temp = *colunaA;
+       *colunaA = *colunaB;
+       *colunaB = temp;
 }
 
 }
