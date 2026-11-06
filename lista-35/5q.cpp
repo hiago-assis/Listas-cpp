@@ -2,6 +2,9 @@
 #include <cstdlib>
 using namespace std;
 
+
+int qntdPositivos(int *m, int linha, int coluna, int qntd, int pos);
+
 int main()
 {
 
@@ -25,12 +28,26 @@ int main()
         }
     }
 
-
-  
-
-
-  
+    cout << "A quantidade de positivos e: " << qntdPositivos(m, linha, coluna, 0, 0);
 
     free(m);
     m = NULL;
+}
+
+
+int qntdPositivos(int *m, int linha, int coluna, int qntd, int pos){
+
+    if(pos == linha * coluna){
+        return qntd;
+    }
+
+
+
+    if(*m > 0){
+        qntd++;
+    }
+
+    
+
+    return qntdPositivos(m + 1, linha, coluna, qntd, pos + 1);
 }
