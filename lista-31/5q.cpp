@@ -7,10 +7,11 @@ void removerRepetidos(int *v, int *tamanho);
 
 int main(){
     int vetor[TAM];
+    int *vPtr = &vetor[0];
     int tamanho = TAM;
 
     for(int i = 0; i < TAM; i++){
-        cin >> vetor[i];
+        cin >> *(vPtr++);
     }
 
     removerRepetidos(vetor, &tamanho);

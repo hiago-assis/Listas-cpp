@@ -36,6 +36,7 @@ int inverterNumero(int X, int resultado){
     
    
     return inverterNumero(restoNum, resultado = resultado * 10 + algarismo);
+
 }
 
 bool verificarPalindromo(int numeroOriginal, int numeroInvertido){
